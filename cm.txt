@@ -1,0 +1,2 @@
+mount –T io-pkt libdlllsm-qnet.so
+fs-cifs //MSI:192.168.69.1:/QNXShared /home/host qnx asev2pzc
