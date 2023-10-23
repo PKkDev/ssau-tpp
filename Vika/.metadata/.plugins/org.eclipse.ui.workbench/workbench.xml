@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<workbench progressCount="18" version="2.0">
+<workbench progressCount="17" version="2.0">
 <workbenchAdvisor/>
-<window height="768" maximized="true" width="1024" x="32" y="32">
+<window height="1548" maximized="true" width="1361" x="481" y="-29">
 <fastViewData fastViewLocation="1024"/>
 <perspectiveBar>
 <itemSize x="365"/>
@@ -29,6 +29,7 @@
 <info part="DefaultEditorWorkbook">
 <folder appearance="1" expanded="2">
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="3"/>
 <part id="0"/>
 <part id="1"/>
 <part id="2"/>
@@ -36,17 +37,21 @@
 </folder>
 </info>
 </editorArea>
-<editor activePart="true" focus="true" id="org.eclipse.cdt.ui.editor.CEditor" name="lab3p0.cc" partName="lab3p0.cc" path="D:/SSAU/TPP/QNXShared/Vika/lab3p0/lab3p0.cc" title="lab3p0.cc" tooltip="lab3p0/lab3p0.cc" workbook="DefaultEditorWorkbook">
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="lab3p0.cc" partName="lab3p0.cc" path="D:/SSAU/TPP/QNXShared/Vika/lab3p0/lab3p0.cc" title="lab3p0.cc" tooltip="lab3p0/lab3p0.cc" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/lab3p0/lab3p0.cc"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="6781" selectionTopPixel="3419"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="607" selectionTopPixel="2527"/>
 </editor>
-<editor id="org.eclipse.cdt.ui.editor.CEditor" name="lab3p1.cc" partName="lab3p1.cc" path="D:/SSAU/TPP/QNXShared/Vika/lab3p1/lab3p1.cc" title="lab3p1.cc" tooltip="lab3p1/lab3p1.cc" workbook="DefaultEditorWorkbook">
+<editor activePart="true" focus="true" id="org.eclipse.cdt.ui.editor.CEditor" name="lab3p1.cc" partName="lab3p1.cc" path="D:/SSAU/TPP/QNXShared/Vika/lab3p1/lab3p1.cc" title="lab3p1.cc" tooltip="lab3p1/lab3p1.cc" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/lab3p1/lab3p1.cc"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="2126" selectionTopPixel="1020"/>
+<editorState selectionHorizontalPixel="59" selectionLength="0" selectionOffset="419" selectionTopPixel="36"/>
 </editor>
 <editor id="org.eclipse.cdt.ui.editor.CEditor" name="lab3p2.cc" partName="lab3p2.cc" path="D:/SSAU/TPP/QNXShared/Vika/lab3p2/lab3p2.cc" title="lab3p2.cc" tooltip="lab3p2/lab3p2.cc" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/lab3p2/lab3p2.cc"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="3683" selectionTopPixel="1426"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="5559" selectionTopPixel="1426"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="lab2.cc" partName="lab2.cc" path="D:/SSAU/TPP/QNXShared/Vika/lab2/lab2.cc" title="lab2.cc" tooltip="lab2/lab2.cc" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/lab2/lab2.cc"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="3660" selectionTopPixel="765"/>
 </editor>
 </editors>
 <views>
@@ -107,9 +112,7 @@
 <view id="org.eclipse.tm.terminal.view.TerminalView" partName="Terminal"/>
 <view id="org.eclipse.ui.views.ProblemView" partName="Problems">
 <viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.severityAndDescriptionField" categoryGroup="org.eclipse.ui.ide.severity" markerContentGenerator="org.eclipse.ui.ide.problemsGenerator" partName="Problems">
-<expanded>
-<category IMemento.internal.id="Warnings"/>
-<category IMemento.internal.id="Errors"/>
+<expanded>&#x0A;<category IMemento.internal.id="Warnings"/>
 </expanded>
 <columnWidths org.eclipse.ui.ide.locationField="84" org.eclipse.ui.ide.markerType="124" org.eclipse.ui.ide.pathField="164" org.eclipse.ui.ide.resourceField="124" org.eclipse.ui.ide.severityAndDescriptionField="400"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.severityAndDescriptionField"/>
@@ -120,7 +123,7 @@
 </viewState>
 </view>
 </views>
-<perspectives activePart="org.eclipse.ui.console.ConsoleView" activePerspective="org.eclipse.cdt.ui.CPerspective">
+<perspectives activePart="org.eclipse.cdt.ui.editor.CEditor" activePerspective="org.eclipse.cdt.ui.CPerspective">
 <perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
 <descriptor class="com.qnx.tools.ide.SystemProfiler.ui.SystemProfilerPerspective" id="com.qnx.tools.ide.SystemProfiler.ui.perspective.traceperspective" label="QNX System Profiler"/>
 <alwaysOnActionSet id="org.eclipse.ui.cheatsheets.actionSet"/>
@@ -278,18 +281,27 @@
 <view id="com.qnx.tools.ide.target.fsys"/>
 <view id="org.eclipse.ui.console.ConsoleView"/>
 <fastViewBars/>
-<layout>&#x0A;<mainWindow>&#x0A;<info folder="true" part="navArea">&#x0A;<folder activePageID="com.qnx.tools.ide.target.internal.ui.targetview" appearance="2" expanded="2">&#x0A;<page content="com.qnx.tools.ide.target.internal.ui.targetview" label="Target Navigator"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
+<layout>
+<mainWindow>
+<info folder="true" part="navArea">
+<folder activePageID="com.qnx.tools.ide.target.internal.ui.targetview" appearance="2" expanded="2">
+<page content="com.qnx.tools.ide.target.internal.ui.targetview" label="Target Navigator"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
 </presentation>
 </folder>
 </info>
-<info folder="true" part="stickyFolderRight" ratio="0.749499" ratioLeft="748" ratioRight="250" relationship="2" relative="navArea">&#x0A;<folder appearance="2" expanded="2">&#x0A;<page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
+<info folder="true" part="stickyFolderRight" ratio="0.749499" ratioLeft="748" ratioRight="250" relationship="2" relative="navArea">
+<folder appearance="2" expanded="2">
+<page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
 <page content="org.eclipse.ui.internal.introview" label="LabelNotFound"/>
 <page content="org.eclipse.ui.cheatsheets.views.CheatSheetView" label="LabelNotFound"/>
 </folder>
 </info>
 <info part="org.eclipse.ui.editorss" ratio="0.249499" ratioLeft="249" ratioRight="749" relationship="2" relative="navArea"/>
-<info folder="true" part="belowEditor" ratio="0.24960506" ratioLeft="158" ratioRight="475" relationship="4" relative="org.eclipse.ui.editorss">&#x0A;<folder activePageID="com.qnx.tools.ide.target.fsys" appearance="2" expanded="2">&#x0A;<page content="com.qnx.tools.ide.sysinfo.internal.ui.systemview" label="System Summary"/>
+<info folder="true" part="belowEditor" ratio="0.24960506" ratioLeft="158" ratioRight="475" relationship="4" relative="org.eclipse.ui.editorss">
+<folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">
+<page content="com.qnx.tools.ide.sysinfo.internal.ui.systemview" label="System Summary"/>
 <page content="com.qnx.tools.ide.sysinfo.internal.ui.processview" label="Process Information"/>
 <page content="com.qnx.tools.ide.sysinfo.internal.ui.memview" label="Memory Information"/>
 <page content="com.qnx.tools.ide.sysinfo.internal.ui.mallocview" label="Malloc Information"/>
@@ -299,7 +311,8 @@
 <page content="com.qnx.tools.ide.sysinfo.internal.ui.coidview" label="LabelNotFound"/>
 <page content="com.qnx.tools.ide.sysinfo.internal.ui.signalview" label="LabelNotFound"/>
 <page content="com.qnx.tools.ide.sysinfo.internal.ui.usageview" label="LabelNotFound"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
 <part id="1"/>
 <part id="2"/>
 <part id="3"/>
@@ -308,7 +321,9 @@
 </presentation>
 </folder>
 </info>
-<info folder="true" part="belowSysViews" ratio="0.7494737" ratioLeft="356" ratioRight="119" relationship="4" relative="belowEditor">&#x0A;<folder appearance="2" expanded="2">&#x0A;<page content="org.eclipse.ui.views.ProgressView" label="LabelNotFound"/>
+<info folder="true" part="belowSysViews" ratio="0.7494737" ratioLeft="356" ratioRight="119" relationship="4" relative="belowEditor">
+<folder appearance="2" expanded="2">
+<page content="org.eclipse.ui.views.ProgressView" label="LabelNotFound"/>
 </folder>
 </info>
 <info part="com.qnx.tools.ide.sysinfo.log.ui.historyView" ratio="0.49921012" ratioLeft="316" ratioRight="317" relationship="4" relative="navArea"/>
@@ -482,7 +497,7 @@
 </folder>
 </info>
 <info part="org.eclipse.ui.editorss" ratio="0.249499" ratioLeft="249" ratioRight="749" relationship="2" relative="topLeft"/>
-<info folder="true" part="bottom" ratio="0.73521125" ratioLeft="1044" ratioRight="376" relationship="4" relative="org.eclipse.ui.editorss">
+<info folder="true" part="bottom" ratio="0.7492958" ratioLeft="1064" ratioRight="356" relationship="4" relative="org.eclipse.ui.editorss">
 <folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">
 <page content="org.eclipse.ui.views.ProblemView" label="Problems"/>
 <page content="org.eclipse.ui.views.TaskList" label="Tasks"/>
@@ -496,7 +511,7 @@
 </presentation>
 </folder>
 </info>
-<info folder="true" part="topRight" ratio="0.74899864" ratioLeft="561" ratioRight="188" relationship="2" relative="org.eclipse.ui.editorss">
+<info folder="true" part="topRight" ratio="0.7935829" ratioLeft="1484" ratioRight="386" relationship="2" relative="org.eclipse.ui.editorss">
 <folder activePageID="org.eclipse.ui.views.ContentOutline" appearance="2" expanded="2">
 <page content="org.eclipse.ui.views.ContentOutline" label="Outline"/>
 <page content="org.eclipse.cdt.make.ui.views.MakeView" label="Make Targets"/>
@@ -516,157 +531,164 @@
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/lab3p0/lab3p0.cc"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/lab3p1/lab3p1.cc"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/lab3p2/lab3p2.cc"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/lab1p1/lab1p1.cc"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/lab2/lab2.cc"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/lab3p0/lab3p0.cc"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/lab3p1/lab3p1.cc"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/lab2/lab2.cc"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/lab3p2/lab3p2.cc"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/lab3p1/lab3p1.cc"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/lab2/lab2.cc"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/lab3p1/lab3p1.cc"/>
 </editors>
 <item historyLabel="lab3p1.cc" index="1">
-<position info="not_deleted" x="2691" y="0"/>
-</item>
-<item historyLabel="lab3p0.cc" index="0">
-<position info="not_deleted" x="1432" y="0"/>
-</item>
-<item historyLabel="lab3p1.cc" index="1">
-<position info="not_deleted" x="3060" y="0"/>
-</item>
-<item historyLabel="lab3p0.cc" index="0">
-<position info="not_deleted" x="3396" y="752"/>
-</item>
-<item historyLabel="lab3p1.cc" index="1">
-<position info="not_deleted" x="3060" y="0"/>
+<position info="not_deleted" x="2946" y="0"/>
 </item>
 <item historyLabel="lab3p2.cc" index="2">
-<position info="not_deleted" x="1655" y="193"/>
-</item>
-<item historyLabel="lab3p1.cc" index="1">
-<position info="not_deleted" x="1828" y="0"/>
+<position info="not_deleted" x="3954" y="0"/>
 </item>
 <item historyLabel="lab3p0.cc" index="0">
-<position info="not_deleted" x="2258" y="0"/>
+<position info="not_deleted" x="8203" y="18"/>
+</item>
+<item historyLabel="lab3p1.cc" index="1">
+<position info="not_deleted" x="2710" y="63"/>
 </item>
 <item historyLabel="lab3p2.cc" index="2">
-<position info="not_deleted" x="2866" y="0"/>
+<position info="not_deleted" x="3866" y="0"/>
 </item>
 <item historyLabel="lab3p1.cc" index="1">
-<position info="not_deleted" x="2254" y="0"/>
+<position info="not_deleted" x="3225" y="0"/>
 </item>
 <item historyLabel="lab3p0.cc" index="0">
-<position info="not_deleted" x="2258" y="0"/>
-</item>
-<item historyLabel="lab3p0.cc" index="0">
-<position info="not_deleted" x="5452" y="0"/>
-</item>
-<item historyLabel="lab3p1.cc" index="1">
-<position info="not_deleted" x="2254" y="0"/>
+<position info="not_deleted" x="8203" y="18"/>
 </item>
 <item historyLabel="lab3p2.cc" index="2">
-<position info="not_deleted" x="5462" y="0"/>
+<position info="not_deleted" x="3543" y="0"/>
 </item>
 <item historyLabel="lab3p1.cc" index="1">
-<position info="not_deleted" x="5083" y="0"/>
+<position info="not_deleted" x="3225" y="0"/>
 </item>
 <item historyLabel="lab3p0.cc" index="0">
-<position info="not_deleted" x="10499" y="0"/>
-</item>
-<item historyLabel="lab3p2.cc" index="2">
-<position info="not_deleted" x="4794" y="0"/>
+<position info="not_deleted" x="567" y="0"/>
 </item>
 <item historyLabel="lab3p1.cc" index="1">
-<position info="not_deleted" x="4437" y="0"/>
+<position info="not_deleted" x="3148" y="0"/>
 </item>
 <item historyLabel="lab3p2.cc" index="2">
-<position info="not_deleted" x="4794" y="0"/>
+<position info="not_deleted" x="3900" y="0"/>
 </item>
 <item historyLabel="lab3p0.cc" index="0">
-<position info="not_deleted" x="10499" y="0"/>
+<position info="not_deleted" x="0" y="11077"/>
 </item>
 <item historyLabel="lab3p1.cc" index="1">
-<position info="not_deleted" x="5007" y="0"/>
-</item>
-<item historyLabel="lab3p2.cc" index="2">
-<position info="not_deleted" x="5432" y="0"/>
+<position info="not_deleted" x="2665" y="0"/>
 </item>
 <item historyLabel="lab3p0.cc" index="0">
-<position info="not_deleted" x="10499" y="0"/>
-</item>
-<item historyLabel="lab3p1.cc" index="1">
-<position info="not_deleted" x="5053" y="0"/>
-</item>
-<item historyLabel="lab3p0.cc" index="0">
-<position info="not_deleted" x="10413" y="0"/>
-</item>
-<item historyLabel="lab3p1.cc" index="1">
-<position info="not_deleted" x="5053" y="0"/>
-</item>
-<item historyLabel="lab3p0.cc" index="0">
-<position info="not_deleted" x="10413" y="0"/>
-</item>
-<item historyLabel="lab3p1.cc" index="1">
-<position info="not_deleted" x="2566" y="0"/>
+<position info="not_deleted" x="152" y="0"/>
 </item>
 <item historyLabel="lab3p2.cc" index="2">
-<position info="not_deleted" x="3124" y="0"/>
+<position info="not_deleted" x="3900" y="0"/>
 </item>
-<item historyLabel="lab3p0.cc" index="0">
-<position info="not_deleted" x="5380" y="0"/>
+<item historyLabel="lab2.cc" index="3">
+<position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="lab3p2.cc" index="2">
-<position info="not_deleted" x="306" y="0"/>
+<item historyLabel="lab3p0.cc" index="4">
+<position info="not_deleted" x="152" y="0"/>
 </item>
-<item historyLabel="lab3p0.cc" index="0">
-<position info="not_deleted" x="6779" y="0"/>
-</item>
-<item historyLabel="lab3p1.cc" index="1">
-<position info="not_deleted" x="2566" y="0"/>
+<item historyLabel="lab3p1.cc" index="5">
+<position info="not_deleted" x="440" y="970"/>
 </item>
 <item historyLabel="lab3p2.cc" index="2">
-<position info="not_deleted" x="306" y="0"/>
+<position info="not_deleted" x="6151" y="0"/>
 </item>
-<item historyLabel="lab1p1.cc" index="3">
-<position info="not_deleted" x="43" y="46"/>
+<item historyLabel="lab2.cc" index="3">
+<position info="not_deleted" x="3219" y="22"/>
 </item>
-<item historyLabel="lab3p0.cc" index="0">
-<position info="not_deleted" x="6779" y="0"/>
+<item historyLabel="lab3p0.cc" index="4">
+<position info="not_deleted" x="891" y="97"/>
 </item>
-<item historyLabel="lab3p2.cc" index="2">
-<position info="not_deleted" x="306" y="0"/>
-</item>
-<item historyLabel="lab3p1.cc" index="1">
-<position info="not_deleted" x="2566" y="0"/>
-</item>
-<item historyLabel="lab3p0.cc" index="0">
-<position info="not_deleted" x="6446" y="0"/>
-</item>
-<item historyLabel="lab3p1.cc" index="1">
-<position info="not_deleted" x="2566" y="0"/>
+<item historyLabel="lab3p1.cc" index="5">
+<position info="not_deleted" x="440" y="970"/>
 </item>
 <item historyLabel="lab3p2.cc" index="2">
-<position info="not_deleted" x="306" y="0"/>
+<position info="not_deleted" x="6151" y="0"/>
 </item>
-<item historyLabel="lab3p1.cc" index="1">
-<position info="not_deleted" x="2566" y="0"/>
+<item historyLabel="lab3p1.cc" index="5">
+<position info="not_deleted" x="440" y="970"/>
 </item>
-<item historyLabel="lab3p0.cc" index="0">
-<position info="not_deleted" x="6881" y="0"/>
-</item>
-<item historyLabel="lab3p2.cc" index="2">
-<position info="not_deleted" x="306" y="0"/>
-</item>
-<item historyLabel="lab3p0.cc" index="0">
-<position info="not_deleted" x="6781" y="0"/>
+<item historyLabel="lab3p0.cc" index="4">
+<position info="not_deleted" x="4419" y="8"/>
 </item>
 <item historyLabel="lab3p2.cc" index="2">
-<position info="not_deleted" x="306" y="0"/>
+<position info="not_deleted" x="2060" y="0"/>
 </item>
-<item historyLabel="lab3p1.cc" index="1">
-<position info="not_deleted" x="2814" y="0"/>
+<item historyLabel="lab3p0.cc" index="4">
+<position info="not_deleted" x="4419" y="8"/>
 </item>
 <item historyLabel="lab3p2.cc" index="2">
-<position info="not_deleted" x="3683" y="0"/>
+<position info="not_deleted" x="2360" y="0"/>
 </item>
-<item historyLabel="lab3p1.cc" index="1">
-<position info="not_deleted" x="2126" y="0"/>
+<item historyLabel="lab2.cc" index="3">
+<position info="not_deleted" x="3219" y="22"/>
 </item>
-<item active="true" historyLabel="lab3p0.cc" index="0">
-<position info="not_deleted" x="6781" y="0"/>
+<item historyLabel="lab3p0.cc" index="4">
+<position info="not_deleted" x="4419" y="8"/>
+</item>
+<item historyLabel="lab3p2.cc" index="2">
+<position info="not_deleted" x="2360" y="0"/>
+</item>
+<item historyLabel="lab3p0.cc" index="4">
+<position info="not_deleted" x="4976" y="0"/>
+</item>
+<item historyLabel="lab3p1.cc" index="5">
+<position info="not_deleted" x="419" y="0"/>
+</item>
+<item historyLabel="lab3p2.cc" index="2">
+<position info="not_deleted" x="2360" y="0"/>
+</item>
+<item historyLabel="lab3p0.cc" index="4">
+<position info="not_deleted" x="8795" y="16"/>
+</item>
+<item historyLabel="lab3p2.cc" index="2">
+<position info="not_deleted" x="5855" y="0"/>
+</item>
+<item historyLabel="lab3p0.cc" index="4">
+<position info="not_deleted" x="8795" y="16"/>
+</item>
+<item historyLabel="lab2.cc" index="6">
+<position info="not_deleted" x="3360" y="0"/>
+</item>
+<item historyLabel="lab3p0.cc" index="4">
+<position info="not_deleted" x="6080" y="0"/>
+</item>
+<item historyLabel="lab3p2.cc" index="7">
+<position info="not_deleted" x="5559" y="0"/>
+</item>
+<item historyLabel="lab3p0.cc" index="4">
+<position info="not_deleted" x="1261" y="0"/>
+</item>
+<item historyLabel="lab3p1.cc" index="8">
+<position info="not_deleted" x="419" y="0"/>
+</item>
+<item historyLabel="lab3p0.cc" index="4">
+<position info="not_deleted" x="1090" y="0"/>
+</item>
+<item historyLabel="lab2.cc" index="9">
+<position info="not_deleted" x="3370" y="0"/>
+</item>
+<item historyLabel="lab3p0.cc" index="4">
+<position info="not_deleted" x="1754" y="0"/>
+</item>
+<item historyLabel="lab2.cc" index="9">
+<position info="not_deleted" x="3370" y="0"/>
+</item>
+<item historyLabel="lab2.cc" index="9">
+<position info="not_deleted" x="3660" y="0"/>
+</item>
+<item historyLabel="lab3p0.cc" index="4">
+<position info="not_deleted" x="1754" y="0"/>
+</item>
+<item active="true" historyLabel="lab3p1.cc" index="10">
+<position info="not_deleted" x="419" y="0"/>
 </item>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
@@ -685,6 +707,9 @@
 </trimLayout>
 </window>
 <mruList>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="lab2.cc" tooltip="lab2/lab2.cc">
+<persistable path="/lab2/lab2.cc"/>
+</file>
 <file factoryID="org.eclipse.cdt.ui.ExternalEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="fcntl.h" tooltip="C:\QNX650\target\qnx6\usr\include\fcntl.h">
 <persistable path="C:\QNX650\target\qnx6\usr\include\fcntl.h" project="lab3p0"/>
 </file>
@@ -702,9 +727,6 @@
 </file>
 <file factoryID="org.eclipse.cdt.ui.ExternalEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="pthread.h" tooltip="C:\QNX650\target\qnx6\usr\include\pthread.h">
 <persistable path="C:\QNX650\target\qnx6\usr\include\pthread.h" project="lab2"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="lab2.cc" tooltip="lab2/lab2.cc">
-<persistable path="/lab2/lab2.cc"/>
 </file>
 <file factoryID="org.eclipse.cdt.ui.ExternalEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="stdlib.h" tooltip="C:\QNX650\target\qnx6\usr\include\stdlib.h">
 <persistable path="C:\QNX650\target\qnx6\usr\include\stdlib.h" project="lab1p1"/>

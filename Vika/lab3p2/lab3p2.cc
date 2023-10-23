@@ -61,14 +61,14 @@ FILE* trendFile;
 
 int main(int argc, char *argv[]) {
 	cout << "P2: Запущен" << endl;
-	cout << "P1: Параметры: " << "argv[0]=  " << argv[0] <<  endl;
+	cout << "P2: Параметры: " << "argv[0]=  " << argv[0] <<  endl;
 
 	struct NamedMemory *namedMemoryPtr = connectToNamedMemory(NAMED_MEMORY);
 	cout << "P2: Присоединился к именованной памяти" << endl;
 
 	trendFile = fopen(TREND_FILE, "w");
 	if(trendFile == NULL){
-		cout << "P2: Ошибка открытия файла для запси тренда" << endl;
+		cout << "P2: Ошибка открытия файла для записи тренда" << endl;
 		exit(EXIT_FAILURE);
 	}
 	cout << "Р2: Открыт файл тренда trend.txt" << endl;

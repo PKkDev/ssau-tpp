@@ -107,7 +107,7 @@ void* funcT1(void* args) {
 		exit(EXIT_FAILURE);
 	}
 	cout << "T1: Поток T2 создан - " << threadT2 <<  endl;
-
+	sleep(1);
 	cout << "T1: Попытка захвата мутекса - ожидание" << endl;
 	pthread_mutex_lock(&mutex);
 

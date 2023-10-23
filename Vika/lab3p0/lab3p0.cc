@@ -20,7 +20,7 @@ using std::endl;
 // Длительность тика dt (уведомление сигналом - 0,4 с) (наносекунды)
 #define DUR_TICK_DT 400000000
 // Время работы приложения (сек)
-#define END_TIME 107 //107 5
+#define END_TIME 5 //107 5
 // Номер сигнала наступления нового тика (уведомления)
 #define TICK_SIGUSR_P1 SIGUSR1
 
@@ -143,7 +143,7 @@ int main(int argc, char *argv[]) {
 	    	 cout << "P0: Ошибка MsgReceive - " << strerror(rcvid) << endl;
 	    }
 
-	    cout << "P0: Получено сообщение от P1" <<  endl;
+	    cout << "P0: Получено сообщение от P2" <<  endl;
 	    if (info.pid == pidP2){
 	    	MsgReply(rcvid, NULL, msg, sizeof(msg));
 	    	isWait = false;
@@ -315,9 +315,9 @@ void setTimerStop(timer_t* stopTimer, struct itimerspec* stopPeriod, long endTim
    	sigset_t set;
    	sigemptyset(&set);
    	sigaddset(&set, SIGUSR2);
-   	act.sa_flags = 0;
+   	act.sa_flags = 0; //учитывать последнюю инициацию сигнала
    	act.sa_mask = set;
-   	act.__sa_un._sa_handler = &deadHandler;
+   	act.__sa_un._sa_handler = &deadHandler; //Используется старый тип обработчика
    	sigaction(SIGUSR2, &act, NULL);
 }
 
