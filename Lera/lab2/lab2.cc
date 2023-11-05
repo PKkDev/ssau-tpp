@@ -50,8 +50,7 @@ int main(int argc, char *argv[]) {
 	// им€, управл€ющий флаг, уровень доступа, начальное значение
 	sem = sem_open(SEMAPHORE_NAME, O_CREAT, 0777, 0);
 	if (sem == SEM_FAILED ) {
-		cout << "Main: ќшибка создани€ именованного семаформа " <<  endl;
-		perror("sem_open");
+		perror("Main: ќшибка создани€ именованного семаформа");
 		return EXIT_FAILURE;
 	 }
 
